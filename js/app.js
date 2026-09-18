@@ -170,7 +170,7 @@
             <div class="stat card"><b>13th</b><span>in Monopoli</span></div>
             <div class="stat card"><b>1914</b><span>Joseph born there</span></div>
             <div class="stat card"><b>1966</b><span>Indiana arrival</span></div>
-            <div class="stat card"><b>3</b><span>Paolos in the line, not 4</span></div>
+            <div class="stat card"><b>4</b><span>Paolos in the line</span></div>
           </div>
         </div>
       </section>
@@ -189,7 +189,7 @@
             ${portal("tree", "assets/stpaul-grocery.jpg", "Full tree", "Minnesota line, Rudd household, Scranton and Maine clusters.")}
             ${portal("timeline", "assets/stpaul-grocery.jpg", "Timeline", "From an 18th-century palazzo to a 2022 obituary.")}
             ${portal("places", "assets/indiana-square.jpg", "Places", "Monopoli, St. Paul, Grundy Center, Plymouth, and unconnected clusters.")}
-            ${portal("iv", "assets/research-desk.jpg", "The IV question", "Paolo, Joseph, Jerry, Poaolo, Poaolo IV — three of that given name, not four.")}
+            ${portal("iv", "assets/research-desk.jpg", "The IV question", "Paolo, Joseph, Jerry, Poaolo, Poaolo IV, Paolo — four of that given name; IV is still only on Dom.")}
             ${portal("clusters", "assets/monopoli-street.jpg", "Other clusters", "Scranton, Maine/N.H., Reading, Rochester, Hudson County — documented, unlinked.")}
             ${portal("research", "assets/research-desk.jpg", "Research desk", `${qN} open questions, priority pulls, and the source list.`)}
             ${portal("learn", "assets/research-desk.jpg", "Test yourself", "Six questions on what is proven versus what is only likely.")}
@@ -200,14 +200,15 @@
       <section class="band band-ink">
         <div class="wrap">
           <p class="kicker" style="color:#e8c48a">The line, as the subject tells it</p>
-          <h2 class="display" style="font-size:2.4rem;max-width:22ch">Jerry and Susie Shez, then Poaolo Dominic, then IV.</h2>
-          <p class="muted" style="max-width:68ch;margin:16px 0 28px">Paolo Domenico (1879–1962) → Joseph F. (1914–2007) → Jerry Palmitessa → Poaolo Dominic Palmitessa (b. 1970, no suffix) → Poaolo IV (b. 1992). Father and mother (Amy) are family account. Only three of those five men are named Paolo or Poaolo.</p>
+          <h2 class="display" style="font-size:2.4rem;max-width:22ch">Then IV, then Paolo, and Violet.</h2>
+          <p class="muted" style="max-width:68ch;margin:16px 0 28px">Paolo Domenico (1879–1962) → Joseph F. (1914–2007) → Jerry Palmitessa → Poaolo Dominic Palmitessa (b. 1970, no suffix) → Poaolo IV (b. 1992) → Paolo Dominic (b. 2023, no suffix). Four of those men are named Paolo or Poaolo. IV is a styling on the subject, not a number passed to his son. Violet Ann Palmitessa (b. 2025) is his daughter.</p>
           <div class="lineage">
             ${glance("1", "Paolo Domenico", "Paolo — immigrant")}
             ${glance("2", "Joseph Frank", "Not a Paolo")}
             ${glance("3", "Jerry", "Not a Paolo")}
             ${glance("4", "Poaolo", "Dad, b. 1970. No suffix.")}
             ${glance("5", "Poaolo IV", "Documented styling, 2006.")}
+            ${glance("6", "Paolo", "Son, b. 2023. No suffix.")}
           </div>
           <p style="margin-top:22px"><a class="primary-btn" href="#/iv">See the numbering test</a></p>
         </div>
@@ -329,7 +330,11 @@
           <div class="subject-well">
             <div class="connector"></div>
             ${node("poaolo-iv", "subject")}
-            <p class="small muted" style="text-align:center;max-width:16ch">Subject. IV styling documented in 2006. Parents are family account.</p>
+            <p class="small muted" style="text-align:center;max-width:18ch">Subject. IV styling documented in 2006. Parents are family account.</p>
+            <div class="connector"></div>
+            <div class="couple">${node("quinn-li")}</div>
+            <div class="connector"></div>
+            <div class="gen-row">${node("paolo-son")}${node("violet-ann")}</div>
           </div>
           <section class="side-col maternal">
             <p class="kicker">Maternal · Rudd</p>
@@ -344,7 +349,7 @@
             </div>
           </section>
         </div>
-        <div class="callout family" style="margin-top:28px">Family account, 13 September 2026: father is <strong>Poaolo Dominic Palmitessa, born 1970</strong>, son of Jerry Palmitessa and Susie Shez; mother is <strong>Amy</strong> of the Rudd household; Angela is a maternal aunt. The Fasching/Shez people and the Rudd people are the paternal and maternal sides of the same family, not two competing nuclear households.</div>
+        <div class="callout family" style="margin-top:28px">Family account, 13 September 2026: father is <strong>Poaolo Dominic Palmitessa, born 1970</strong>, son of Jerry Palmitessa and Susie Shez; mother is <strong>Amy</strong> of the Rudd household; Angela is a maternal aunt. Family account, 18 September 2026: spouse <strong>Quinn Li Xiang (Luther) Palmitessa</strong>; children <strong>Paolo Dominic Palmitessa (2023)</strong>, no suffix, and <strong>Violet Ann Palmitessa (2025)</strong>.</div>
         <div class="grid-2" style="margin-top:16px">
           <div class="card">
             <p class="kicker">Still uncaptioned in public records</p>
@@ -515,17 +520,17 @@
       <div class="page wrap">
         <p class="kicker">Onomastics</p>
         <h1 class="display" style="font-size:clamp(2rem,5vw,3.2rem)">How the “IV” numbering actually works</h1>
-        <p class="lede">The paternal line is Paolo, Joseph, Jerry, Poaolo, Poaolo IV. Joseph and Jerry are in the line. They are not a missing Paolo.</p>
+        <p class="lede">The paternal line is Paolo, Joseph, Jerry, Poaolo, Poaolo IV, Paolo. Joseph and Jerry are in the line. They are not a missing Paolo. The son is a Paolo with no suffix.</p>
         <div class="count-strip">
           <div class="card">
-            <div class="big">3</div>
+            <div class="big">4</div>
             <p class="kicker" style="margin-top:8px">Men named Paolo / Poaolo</p>
-            <p class="small muted">Immigrant, father, subject.</p>
+            <p class="small muted">Immigrant, father, subject, son.</p>
           </div>
           <div class="card">
             <div class="big">IV</div>
             <p class="kicker" style="margin-top:8px">A family styling</p>
-            <p class="small muted">Documented in Ned Rudd’s 2006 obituary. Not a filled chain of four identical given names.</p>
+            <p class="small muted">Documented on the subject in 2006. Not a filled I–IV chain, and not passed to the 2023 son.</p>
           </div>
         </div>
         <div class="iv-row">
@@ -541,15 +546,15 @@
             </article>`;
           }).join("")}
         </div>
-        <div class="callout family">Only <strong>three</strong> men in this line have the given name Paolo or Poaolo: the immigrant, the father (no suffix), and the subject (IV). There are not four Paolos or Poaolos here.</div>
+        <div class="callout family">Four men in this line have the given name Paolo or Poaolo: the immigrant, the father (no suffix), the subject (IV), and the son (2023, no suffix). IV is a family styling on the subject. It is not a headcount, and it is not a “V” on the next generation.</div>
         <div class="grid-2" style="margin-top:18px">
           <div class="card">
             <p class="kicker">What is documented</p>
-            <p>Poaolo Dominic Palmitessa IV in Ned Rudd’s 2006 Plymouth obituary. The spelling Poaolo again in the 2008–09 Plymouth High School swim result.</p>
+            <p>Poaolo Dominic Palmitessa IV in Ned Rudd’s 2006 Plymouth obituary. The spelling Poaolo again in the 2008–09 Plymouth High School swim result. Quinn Li Palmitessa as wife of Dominic Palmitessa of Warsaw, 2022.</p>
           </div>
           <div class="card">
             <p class="kicker">Family account</p>
-            <p>The line is Paolo Domenico → Joseph F. → Jerry → Poaolo Dominic (b. 1970, no suffix) → Poaolo IV. A later generation is not listed.</p>
+            <p>The line is Paolo Domenico → Joseph F. → Jerry → Poaolo Dominic (b. 1970, no suffix) → Poaolo IV → Paolo Dominic (b. 2023, no suffix). Daughter: Violet Ann Palmitessa (b. 2025). Spouse: Quinn Li Xiang (Luther) Palmitessa.</p>
           </div>
         </div>
       </div>

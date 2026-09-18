@@ -107,11 +107,18 @@ Joseph’s 2007 obituary lists grandchildren including **Paolo**, Electra, Angie
 - Mother: **Amy** (the Amy of the Rudd household). Angela Rudd is a maternal aunt, not the mother.
 - He was married to Amy.
 
+**Family account (subject, 18 September 2026)**
+
+- Spouse: **Quinn Li Xiang (Luther) Palmitessa**. The 2022 Luther obituary already names Quinn Li Palmitessa as wife of Dominic Palmitessa of Warsaw; Xiang is family account.
+- Son: **Paolo Dominic Palmitessa**, born **2023**, **no suffix**.
+- Daughter: **Violet Ann Palmitessa**, born **2025**.
+- No civil birth certificates were opened for the children.
+
 Working pedigree with that account:
 
-Paolo Domenico (1879–1962) → Joseph F. (1914–2007) → **Jerry Palmitessa** → **Poaolo Dominic Palmitessa (b. 1970)** → Dom (b. 1992).
+Paolo Domenico (1879–1962) → Joseph F. (1914–2007) → **Jerry Palmitessa** → **Poaolo Dominic Palmitessa (b. 1970)** → Dom (b. 1992) → **Paolo Dominic Palmitessa (b. 2023)**.
 
-That is **four** Palmitessa generations in the U.S. after Italy. It is still **not** four men all named Paolo: Joseph and Jerry are not published as Paolo. The Fasching/Shez people and the Rudd people are the **paternal and maternal sides** of the same family, not two competing nuclear households. Jerry’s published wife in 2015 is **Jan**; the earlier Susie Shez relationship is family account, not reconstructed beyond what the subject stated.
+That is **five** Palmitessa generations in the U.S. after Italy. Four of those men are named Paolo/Poaolo: the immigrant, the father, the subject, and the son. Joseph and Jerry are not published as Paolo. The son has no suffix; IV stays on the subject. The Fasching/Shez people and the Rudd people are the **paternal and maternal sides** of the same family, not two competing nuclear households. Jerry’s published wife in 2015 is **Jan**; the earlier Susie Shez relationship is family account, not reconstructed beyond what the subject stated.
 
 
 ---
@@ -129,8 +136,9 @@ That is **four** Palmitessa generations in the U.S. after Italy. It is still **n
 | 3 | Jerry Palmitessa | No | Son of Joseph (obituaries). Father of the next (family account). No suffix. |
 | 4 | Poaolo Dominic Palmitessa, b. 1970 | **Yes** | Family account. **No suffix.** Plausible published match for grandson Paolo in Joseph F.’s 2007 obituary. |
 | 5 | Poaolo Dominic Palmitessa IV, b. 1992 | **Yes** | **Documented IV styling** in the Rudd obituary. |
+| 6 | Paolo Dominic Palmitessa, b. 2023 | **Yes** | Family account. Son of the subject and Quinn Li Xiang (Luther) Palmitessa. **No suffix.** |
 
-**Therefore:** IV is a **family styling on the subject**, not a count of four men named Paolo/Poaolo. In this line that given name appears **three** times: the immigrant, the father, and the subject. Joseph and Jerry are in the line and are not named Paolo. A later generation is not listed here.
+**Therefore:** IV is a **family styling on the subject**, not a count of men named Paolo/Poaolo, and not a number passed to the next generation. In this line that given name appears **four** times: the immigrant, the father, the subject, and the son. Joseph and Jerry are in the line and are not named Paolo. Daughter **Violet Ann Palmitessa (b. 2025)** is family account.
 
 A Rev. Paul Palmitessa, born 18 January 1931, served in the Archdiocese of St. Paul and Minneapolis (ordination 1956). Parentage was **not** established in sources opened for this brief; Frances’s “six children” list does not include him. He is **not** placed on Dom’s pedigree here.
 

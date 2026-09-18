@@ -642,8 +642,9 @@ window.ARCHIVE = {
       summary: "Named as a grandson of Ned W. Rudd, D.V.M. (2006) and, by the same household, of Mary Lee (Williams) Rudd (2020). Plymouth High School swimmer, sophomore, 2008–09 IHSAA Warsaw sectional — consistent with a July 1992 birth. Quinn Li Palmitessa is named as wife of Dominic Palmitessa of Warsaw in the 2022 Donald E. Luther obituary (her father).",
       notes: [
         "Family account: father is Poaolo Dominic Palmitessa (b. 1970), son of Jerry Palmitessa and Susie Shez; mother is Amy of the Rudd household. Angela Rudd is a maternal aunt.",
-        "Pedigree with that account: Paolo Domenico → Joseph F. → Jerry → Poaolo Dominic (b. 1970) → Dom. Four Palmitessa generations in the U.S. after Italy, still not four men all named Paolo.",
-        "The Fasching/Shez names are the paternal side; the Rudd names are the maternal side."
+        "Pedigree with that account: Paolo Domenico → Joseph F. → Jerry → Poaolo Dominic (b. 1970) → Dom → Paolo Dominic (b. 2023). Four men in this line named Paolo/Poaolo. IV remains a styling on the subject only.",
+        "The Fasching/Shez names are the paternal side; the Rudd names are the maternal side.",
+        "Family account, 18 September 2026: married Quinn Li Xiang (Luther) Palmitessa; children Paolo Dominic Palmitessa (2023, no suffix) and Violet Ann Palmitessa (2025)."
       ],
       relations: [
         { type: "Father (family account)", id: "poaolo-father" },
@@ -653,9 +654,11 @@ window.ARCHIVE = {
         { type: "Maternal grandfather", id: "ned-rudd" },
         { type: "Maternal grandmother", id: "mary-lee-rudd" },
         { type: "Maternal aunt", id: "angela-rudd" },
-        { type: "Spouse (published 2022)", id: "quinn-li" }
+        { type: "Spouse (published 2022; family account for full name)", id: "quinn-li" },
+        { type: "Child (family account)", id: "paolo-son" },
+        { type: "Child (family account)", id: "violet-ann" }
       ],
-      sources: ["obit-ned-rudd", "obit-mary-lee", "ihsaa", "obit-luther", "family-2026"]
+      sources: ["obit-ned-rudd", "obit-mary-lee", "ihsaa", "obit-luther", "family-2026", "family-2026-sep18"]
     },
     "ned-rudd": {
       id: "ned-rudd",
@@ -749,17 +752,56 @@ window.ARCHIVE = {
     },
     "quinn-li": {
       id: "quinn-li",
-      name: "Quinn Li Palmitessa",
+      name: "Quinn Li Xiang (Luther) Palmitessa",
+      aka: ["Quinn Li Palmitessa"],
       years: "",
       status: "living",
       line: "minnesota",
-      role: "Named as wife of Dominic Palmitessa of Warsaw, 2022",
-      summary: "Named in the 2022 Donald E. Luther obituary (her father).",
+      role: "Wife of the subject",
+      summary: "Named Quinn Li Palmitessa, wife of Dominic Palmitessa of Warsaw, in the 2022 Donald E. Luther obituary (her father). Family account, 18 September 2026: full name Quinn Li Xiang (Luther) Palmitessa; married to Poaolo Dominic Palmitessa IV; children Paolo Dominic Palmitessa (2023) and Violet Ann Palmitessa (2025).",
       relations: [
         { type: "Spouse", id: "poaolo-iv" },
-        { type: "Parent", id: "donald-luther" }
+        { type: "Parent", id: "donald-luther" },
+        { type: "Child (family account)", id: "paolo-son" },
+        { type: "Child (family account)", id: "violet-ann" }
       ],
-      sources: ["obit-luther"]
+      sources: ["obit-luther", "family-2026-sep18"]
+    },
+    "paolo-son": {
+      id: "paolo-son",
+      name: "Paolo Dominic Palmitessa",
+      aka: ["Paolo"],
+      years: "b. 2023",
+      born: "2023 (family account). No civil birth certificate was opened for this brief. No suffix.",
+      status: "family",
+      line: "minnesota",
+      role: "Son of the subject",
+      summary: "Family account from the subject, 18 September 2026: son of Poaolo Dominic Palmitessa IV and Quinn Li Xiang (Luther) Palmitessa. Fourth man in this paternal line with the given name Paolo/Poaolo. No I/II/III/V styling.",
+      notes: [
+        "IV remains a documented family styling on the subject only. This child is not numbered from that styling."
+      ],
+      relations: [
+        { type: "Father (family account)", id: "poaolo-iv" },
+        { type: "Mother (family account)", id: "quinn-li" },
+        { type: "Sister (family account)", id: "violet-ann" }
+      ],
+      sources: ["family-2026-sep18"]
+    },
+    "violet-ann": {
+      id: "violet-ann",
+      name: "Violet Ann Palmitessa",
+      years: "b. 2025",
+      born: "2025 (family account). No civil birth certificate was opened for this brief.",
+      status: "family",
+      line: "minnesota",
+      role: "Daughter of the subject",
+      summary: "Family account from the subject, 18 September 2026: daughter of Poaolo Dominic Palmitessa IV and Quinn Li Xiang (Luther) Palmitessa.",
+      relations: [
+        { type: "Father (family account)", id: "poaolo-iv" },
+        { type: "Mother (family account)", id: "quinn-li" },
+        { type: "Brother (family account)", id: "paolo-son" }
+      ],
+      sources: ["family-2026-sep18"]
     },
     "donald-luther": {
       id: "donald-luther",
@@ -1102,7 +1144,14 @@ window.ARCHIVE = {
       {
         id: "subject",
         label: "The subject",
-        people: ["poaolo-iv"]
+        note: "IV styling documented in 2006. Spouse named in the 2022 Luther obituary.",
+        couples: [["poaolo-iv", "quinn-li"]]
+      },
+      {
+        id: "next-gen",
+        label: "Their children — family account, 18 September 2026",
+        note: "Paolo Dominic Palmitessa (2023) has no suffix. Violet Ann Palmitessa (2025). No civil birth certificates were opened.",
+        people: ["paolo-son", "violet-ann"]
       }
     ],
     rudd: [
@@ -1193,7 +1242,9 @@ window.ARCHIVE = {
     { year: "2008–09", sort: 2008, title: "Plymouth High School swimming", text: "IHSAA Warsaw sectional lists Poaolo Palmitessa, sophomore — consistent with a July 1992 birth.", status: "documented", people: ["poaolo-iv"] },
     { year: "2015", sort: 2015, title: "Ida dies in Northfield", text: "27 December 2015. Her obituary is a principal source for the children’s published places.", status: "documented", people: ["ida-held"] },
     { year: "2020", sort: 2020, title: "Mary Lee Rudd dies", text: "2 December 2020. Lists Angela Rudd, South Bend.", status: "documented", people: ["mary-lee-rudd", "angela-rudd"] },
-    { year: "2022", sort: 2022, title: "Quinn Li Palmitessa named in print", text: "Donald E. Luther obituary names her as wife of Dominic Palmitessa of Warsaw.", status: "documented", people: ["quinn-li", "poaolo-iv"] }
+    { year: "2022", sort: 2022, title: "Quinn Li Palmitessa named in print", text: "Donald E. Luther obituary names her as wife of Dominic Palmitessa of Warsaw. Family account later supplies the full name Quinn Li Xiang (Luther) Palmitessa.", status: "documented", people: ["quinn-li", "poaolo-iv"] },
+    { year: "2023", sort: 2023, title: "Paolo Dominic Palmitessa is born", text: "Family account, 18 September 2026: son of Poaolo Dominic Palmitessa IV and Quinn Li Xiang (Luther) Palmitessa. No suffix. Fourth man in this line with the given name Paolo/Poaolo. No civil birth certificate was opened.", status: "family", people: ["paolo-son", "poaolo-iv", "quinn-li"] },
+    { year: "2025", sort: 2025, title: "Violet Ann Palmitessa is born", text: "Family account, 18 September 2026: daughter of Poaolo Dominic Palmitessa IV and Quinn Li Xiang (Luther) Palmitessa. No civil birth certificate was opened.", status: "family", people: ["violet-ann", "poaolo-iv", "quinn-li"] }
   ],
 
   iv: [
@@ -1201,7 +1252,8 @@ window.ARCHIVE = {
     { numeral: "2", person: "joseph-frank", status: "documented", sameGiven: false, verdict: "Joseph Frank Palmitessa, born Monopoli 1914. In the line. Not named Paolo — that is not a missing person." },
     { numeral: "3", person: "jerry", status: "living", sameGiven: false, verdict: "Jerry Palmitessa, son of Joseph. In the line (family account: father of the next). Not named Paolo. No suffix." },
     { numeral: "4", person: "poaolo-father", status: "family", sameGiven: true, verdict: "Poaolo Dominic Palmitessa, b. 1970. Second man in this line with the given name. No suffix." },
-    { numeral: "5", person: "poaolo-iv", status: "documented", sameGiven: true, verdict: "Poaolo Dominic Palmitessa IV. Third man in this line with the given name. The IV styling is documented on him only; it is not a count of four Paolos." }
+    { numeral: "5", person: "poaolo-iv", status: "documented", sameGiven: true, verdict: "Poaolo Dominic Palmitessa IV. Third man in this line with the given name. The IV styling is documented on him only." },
+    { numeral: "6", person: "paolo-son", status: "family", sameGiven: true, verdict: "Paolo Dominic Palmitessa, b. 2023. Fourth man in this line with the given name. No suffix. Not a “V.”" }
   ],
 
   chapters: [
@@ -1267,12 +1319,13 @@ window.ARCHIVE = {
       title: "Poaolo IV, as the records actually say",
       image: "assets/indiana-square.jpg",
       caption: "Plymouth, Marshall County, is the published hometown of the Rudd family and of a 2008–09 high-school swimmer named Poaolo Palmitessa.",
-      people: ["poaolo-iv", "poaolo-father", "amy-burch", "jerry", "susie-shez", "ned-rudd", "mary-lee-rudd", "angela-rudd", "quinn-li"],
+      people: ["poaolo-iv", "poaolo-father", "amy-burch", "jerry", "susie-shez", "ned-rudd", "mary-lee-rudd", "angela-rudd", "quinn-li", "paolo-son", "violet-ann"],
       body: [
         { type: "p", text: "**Poaolo Dominic Palmitessa IV** is named as a **grandson** of Ned W. Rudd, D.V.M. (18 December 1932 – 10 November 2006) and, by the same household, of Mary Lee (Williams) Rudd (20 March 1934 – 2 December 2020), a lifetime Plymouth, Indiana, family." },
         { type: "p", text: "Ned’s children: Angela R. Rudd; Amy R. (Roger / later Mindy) Burch; Ned W. Rudd Jr.; Jason B. Rudd. The 2006 grandchild list names **Poaolo Dominic Palmitessa IV** separately from **Eric, Callie, Devon and Quintin Burch**." },
         { type: "callout", tone: "family", text: "**Family account (13 September 2026):** Dom’s father is **Poaolo Dominic Palmitessa**, born **1970** to **Jerry Palmitessa** and **Susie Shez**. He was married to Dom’s mother **Amy**. Angela Rudd is a maternal aunt. The obituaries never caption “son of Amy.”" },
         { type: "p", text: "A 2008–09 IHSAA swimming result lists **Poaolo Palmitessa**, sophomore, Plymouth High School — consistent with a July 1992 birth. Quinn Li Palmitessa is named as wife of Dominic Palmitessa of Warsaw in the 2022 Donald E. Luther obituary (her father)." },
+        { type: "callout", tone: "family", text: "**Family account (18 September 2026):** Dom married **Quinn Li Xiang (Luther) Palmitessa**. Their children are **Paolo Dominic Palmitessa (2023)**, no suffix, and **Violet Ann Palmitessa (2025)**. No civil birth certificates were opened." },
         { type: "callout", tone: "documented", text: "The Fasching/Shez names (paternal) and the Rudd names (maternal) are the two sides of the same family. David M. Palmitessa (1970–2002) remains a deceased grandson of Joseph F.; the subject says that is **not** his father." }
       ]
     },
@@ -1282,11 +1335,11 @@ window.ARCHIVE = {
       title: "How the “IV” numbering actually works",
       image: "assets/research-desk.jpg",
       caption: "This archive keeps documented facts apart from hypotheses. No dates, relatives, or towns are invented.",
-      people: ["paolo-domenico", "joseph-frank", "jerry", "poaolo-father", "poaolo-iv"],
+      people: ["paolo-domenico", "joseph-frank", "jerry", "poaolo-father", "poaolo-iv", "paolo-son"],
       body: [
         { type: "p", text: "The styling **Poaolo Dominic Palmitessa IV** appears in Ned Rudd’s 2006 Plymouth obituary. The given name is spelled **Poaolo** there, and **Poaolo** again in the 2008–09 Plymouth High School swim result. The father, by family account, is **Poaolo Dominic Palmitessa** with **no suffix**." },
-        { type: "p", text: "The paternal line is **Paolo Domenico → Joseph F. → Jerry → Poaolo (b. 1970) → Poaolo IV**. Joseph and Jerry belong in that line. They are not named Paolo, and they are not a hole in the record." },
-        { type: "callout", tone: "family", text: "Only **three** men in this line have the given name Paolo/Poaolo: the immigrant, the father, and the subject. There are not four Paolos or Poaolos here. IV is a family styling on the subject, not a headcount of that given name." }
+        { type: "p", text: "The paternal line is **Paolo Domenico → Joseph F. → Jerry → Poaolo (b. 1970) → Poaolo IV → Paolo (b. 2023)**. Joseph and Jerry belong in that line. They are not named Paolo, and they are not a hole in the record." },
+        { type: "callout", tone: "family", text: "**Four** men in this line have the given name Paolo or Poaolo: the immigrant, the father (no suffix), the subject (IV), and the subject’s son (2023, no suffix). IV is a family styling on the subject, not a headcount of that given name, and not a number passed to the next generation." }
       ]
     },
     {
@@ -1322,11 +1375,11 @@ window.ARCHIVE = {
       choices: [
         "Four generations of men all named Paolo/Poaolo",
         "A missing son of Paolo Domenico named Paolo",
-        "A documented family styling on the subject. The line is Paolo, Joseph, Jerry, Poaolo, Poaolo IV — three men of that given name, not four",
+        "A documented family styling on the subject. The line is Paolo, Joseph, Jerry, Poaolo, Poaolo IV, then Paolo (2023) with no suffix — four men of that given name, not a filled I–IV chain",
         "It counts an Italian Paolo born before 1879"
       ],
       answer: 2,
-      why: "The styling appears in Ned Rudd’s 2006 obituary. Family account gives the paternal line as Paolo Domenico → Joseph → Jerry → Poaolo (no suffix) → Poaolo IV. Joseph and Jerry are in the line and not named Paolo. A fourth Paolo/Poaolo is not listed here."
+      why: "The styling appears in Ned Rudd’s 2006 obituary. Family account gives the paternal line as Paolo Domenico → Joseph → Jerry → Poaolo (no suffix) → Poaolo IV → Paolo (b. 2023, no suffix). Joseph and Jerry are in the line and not named Paolo. IV is on the subject only."
     },
     {
       q: "When is the first documented Palmitessa footprint in Indiana?",
@@ -1383,7 +1436,7 @@ window.ARCHIVE = {
     "U.S. census 1920–1950 households in St. Paul (Ramsey) and Scranton (Lackawanna).",
     "A public record that names Dom’s father as Poaolo Dominic Palmitessa, son of Jerry Palmitessa and Susie Shez (currently family account). Joseph’s 2007 grandson Paolo is a plausible match, not a caption.",
     "A public record captioning Amy (Rudd / later Burch) as Dom’s mother. Family account says she is.",
-    "Whether the IV styling was meant to count something other than men named Paolo/Poaolo (the paternal line has three of that given name through the subject).",
+    "Whether the IV styling was meant to count something other than men named Paolo/Poaolo (the paternal line now has four of that given name through the subject’s son, and still only one IV).",
     "Italian births that would prove or disprove the user-claimed brothers Dominic (Scranton), Paolo (Florida 1886), and Jiacomo (Maine/NH)."
   ],
 
@@ -1397,7 +1450,8 @@ window.ARCHIVE = {
 
   sources: {
     "Family account": [
-      { id: "family-2026", title: "Subject’s family account, 13 September 2026 — father Poaolo Dominic Palmitessa (b. 1970), parents Jerry Palmitessa and Susie Shez, mother Amy", url: "Palmitessa-family-history.md" }
+      { id: "family-2026", title: "Subject’s family account, 13 September 2026 — father Poaolo Dominic Palmitessa (b. 1970), parents Jerry Palmitessa and Susie Shez, mother Amy", url: "Palmitessa-family-history.md" },
+      { id: "family-2026-sep18", title: "Subject’s family account, 18 September 2026 — spouse Quinn Li Xiang (Luther) Palmitessa; children Paolo Dominic Palmitessa (2023, no suffix) and Violet Ann Palmitessa (2025)", url: "Palmitessa-family-history.md" }
     ],
     "Find A Grave": [
       { id: "fg-paolo", title: "Paolo Domenico “Paul” Palmitessa (1879–1962), 228720444", url: "https://www.findagrave.com/memorial/228720444/paolo_domenico-palmitessa" },
